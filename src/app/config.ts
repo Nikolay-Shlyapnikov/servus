@@ -1,0 +1,1 @@
+export const domain = '10.0.0.33';
