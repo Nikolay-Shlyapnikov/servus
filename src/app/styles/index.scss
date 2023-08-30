@@ -1,2 +1,23 @@
 @import "vars";
 @import "normalize";
+
+.button{
+  padding: 10px;
+  border-radius: 20px;
+  background: teal;
+  box-sizing: border-box;
+  display: inline-flex;
+  margin: 10px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  transition: all 0.4s;
+  border: 1px solid teal;
+}
+.button:hover{
+  color: teal;
+  background: white;
+  transition: all 0.4s;
+}
